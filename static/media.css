@@ -1,0 +1,100 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+.serversStat p {
+	font-size: 10pt;
+}
+.topIndexBox .tagsSort {
+	text-align: center;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.serversStat p {
+	font-size: 14pt;
+}
+.tegSpan {
+	display: inline-block;
+	font-size: 10pt;
+	margin: 5px 8px;
+	padding: 3px 7px;
+	border-radius: 3px;
+	position: relative;
+	cursor: pointer;
+}
+.tegSpan:before {display: none;}
+.tegSpan:after {display: none;}
+.addServerPage .col-md-4 p {
+  text-align: center;
+}
+.tagsSort {
+	text-align: center;
+}
+.addServerPage input,
+.addServerPage select {
+	display: inline-block;
+}
+.addServerPage .col-md-8 p {
+  text-align: center !important;
+}
+.addServerPage input[type="submit"]{
+	margin-top: 10px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+.serversList td {
+	display: block;
+	text-align: center;
+	border: none;
+}.serversList tr {
+	border: 1px solid #444;
+}td.serverDesc .members {
+  display: block;
+  margin-bottom: 5px;
+}
+td.serverAvatar img {
+  width: 100px;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 420px) {
+	
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

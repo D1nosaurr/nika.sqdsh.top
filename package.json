@@ -1,0 +1,21 @@
+{
+    "name": "nika.sqdsh.top",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": {
+        "name": "Sqdsh.Community",
+        "url": "https://sqdsh.top/"
+    },
+    "scripts": {
+        "start": "node .",
+        "dev": "nodemon ."
+    },
+    "license": "MIT",
+    "dependencies": {
+        "@megavasiliy007/sdc-api": "github:MegaVasiliy007/sdc-api",
+        "discord.js": "^11.5.1",
+        "dotenv": "^8.2.0",
+        "ejs": "^3.0.2",
+        "express": "^4.17.1"
+    }
+}
