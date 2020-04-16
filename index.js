@@ -17,7 +17,8 @@ nika.get('/', (req, res) => {
         `<span style="cursor: help;" onclick="alert('Лиське привет передайте. <3')">Фырк.</span> ©️ Vlad Ciphersky`,
         `Только на <a href="/partner/1" target="_blank">этом сервере</a> жителей увозят на чорный рынак. ©️ D1nosaurr</span>`,
         `YstNeris <3`,
-        `Ностальгия из 2018...`
+        `Ностальгия из 2018...`,
+        `Не удивительно, что этот сайт ещё и на <a href="/partner/3" target="_blank">GitHub</a> есть. ©️ Sqdsh.Community`
     ];
 
     let phraseID = Math.floor(Math.random() * phrases.length);
@@ -42,6 +43,10 @@ nika.get('/partner/:id', (req, res) => {
 
         case 2:
             res.redirect("https://bots.server-discord.com/543858333585506315");
+            break;
+
+        case 3:
+            res.redirect("https://github.com/sqdshcom/nika.sqdsh.top");
             break;
     
         default:
